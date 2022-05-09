@@ -1,15 +1,12 @@
 #設定非必要不要動
 from platform import java_ver
-from os.path impr
 import discord
 from discord.ext import commands
 import json
 import random,asyncio
 import time
 
-import openpyxl
 
-with open()
 
 
 with open("settings.json","r",encoding="utf8") as jfile:
