@@ -25,7 +25,7 @@ async def on_ready():
     print(f">>機器人: {bot.user} 已上線<<")
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='為資工一甲效勞中'))
     channel = bot.get_channel(jdata["loginchannel"])
-    #await channel.send(f">>機器人: {bot.user} 已上線<<")
+    await channel.send(f">>機器人: {bot.user} 已上線<<")
 #加入訊息
 @bot.event
 async def on_member_join(member):
