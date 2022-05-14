@@ -108,7 +108,7 @@ async def 上課(ctx):
 async def vote(ctx,*,cho):
         list = re.compile(r"\S+").findall(cho)
         emoji_num = [":one:,:two:,:three:,:four:,:five:,:six:,:seven:,:eight:,:nine:,:keycap_ten:"]
-        
+
         if len (list) > 1:
             embed = discord.Embed(title = list[0],color=0x0011ff)
             list.pop(0)
@@ -125,7 +125,7 @@ async def vote(ctx,*,cho):
             embed = discord.Embed (title = "非常民主的投票（應該啦",color=0x0011ff)
             embed.add_field(name = list[0], value ="\u200b", inline = False)
             msg = await ctx.send(embed=embed)
-            await msg.add_reaction("+1")
-            await msg.add_reaction("-1")
+            await msg.add_reaction(":+1:")
+            await msg.add_reaction(":-1:")
         await ctx.message.delete()
 bot.run(jdata["TOKEN"])
