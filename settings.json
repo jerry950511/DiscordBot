@@ -8,5 +8,7 @@
     "瓦羅蘭":["特戰","瓦羅蘭","打瓦","Valorant","valorant","打特戰","打瓦羅蘭"],
     "R6":["虹彩六號","R6","r6","打r6","打R6"],
   "傑哥":"https://memeprod.ap-south-1.linodeobjects.com/user-template/6801449d868869578a0730d1f2acefed.png",
-  "loginchannel":890076147201740862
+  "loginchannel":890076147201740862,
+  "help":"!ping - 顯示現在機器人的ping值\n!clean 數字 - 清除訊息\n!dice - 從1到6中隨機骰一個數出來\n!vote 標題 選項一 選項二⋯ - 投票\n\n!logo - 顯示出系上logo\n!rex - 顯示出雷克斯的頭（？\n!課表 - 顯示出資工一甲的課表\n!傑哥 - 傑哥不要\n!web - 取得班網連結\n!fooder - 取得午餐吃什麼連結\n!pop - 取得pop rex連結\n\n!上課 - 叫大家上課\n!下課 - 叫大家下課\n\n關鍵字\n特戰 瓦羅蘭 打瓦\nValorant valorant\n打特戰 打瓦羅蘭\n\n虹彩六號 r6 R6\n打R6 打r6",
+  "vote_data":[]
 }
